@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: "微软雅黑";
+	font-weight: bold;
+}
+li{
+	list-style: none;
+	cursor: pointer;
+}
+.main{
+	width: 1000px;
+	height: 500px;
+	margin: 50px auto;
+	box-shadow: 0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray;	
+}
+.left{
+	width: 300px;
+	height: 500px;
+	float: left;
+	background: url(leftBg.png);
+	border-radius: 2px;
+	position: relative;
+}
+.right{
+	width: 700px;
+	height: 500px;
+	margin: 0 0 0 0px;
+	float: left;
+	position: relative;
+	background: url(rightBg.png);
+	border-radius: 2px;
+}
+.player{
+	width: 700px;
+	height: 127px;
+	position: absolute;
+	bottom: 13px;
+	background-position: right;
+	background: url(lrcbg.png) no-repeat right;
+}
+.musiclisttit{
+	font-size: 24px;
+	width: 300px;
+	text-align: center;
+	color: white;
+	margin: 10px 0 0 0;
+	height: 50px;
+	line-height: 50px;
+}
+.musl{
+	width: 280px;
+	top:0px;
+	position: relative;
+	margin: 0px 10px;
+	color: white;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 2px;
+	box-shadow: 0 -1px 5px #eee,0 1px 5px #eee;
+}
+.muslist{
+	width: 280px;
+	position: absolute;
+	height: 1535px;
+}
+.muslist li{
+	height: 35px;
+	line-height: 35px;
+	border-bottom:2px solid #4a392f;
+	border-top:2px solid #4a392f;
+	padding: 0 0 0 20px;
+	margin: 5px 0;
+}
+.muslist li:hover{
+	background:#4a392f;
+	color: white;
+}
+.playbtn{
+	margin: 75px 0 0 10px;
+}
+.playbtn li{
+	float: left;
+	width: 42px;
+	height: 42px;
+	margin: 0 20px 0 0;
+	position: relative;
+}
+i{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	z-index: 2;
+}
+.i1{
+	background: url(but.png) 3px -38px no-repeat;
+}
+.i2{
+	display: block;
+	background: url(but.png) 3px 5px no-repeat;
+}
+.i3{
+	margin: 0 0 0 -62px;
+	background: url(but.png) -75px -38px no-repeat;
+}
+.i4{
+	margin: 0 0 0 -62px;
+	background: url(but.png) -78px 5px no-repeat;
+}
+.i22{
+	margin: 0 0 0 -62px;
+	display: none;
+	background: url(but.png) -37px 5px no-repeat;
+}
+.probar{
+	width: 350px;
+	height: 8px;
+	float: right;
+	margin: -22px 100px 0 0;
+	border-radius: 15px;
+	border:1px solid #bbb;
+	background:#4a392f;
+	z-index: 100;
+}
+.probar .rate{
+	width: 10px;
+	height:10px;
+	position: absolute;
+	background: #4a392f;
+	left: 247px;
+	top:92px;
+	z-index: 50;
+	cursor: pointer;
+	border: 3px solid #ddd;
+	border-radius: 20px;
+}
+.nowtime,.alltime{
+	color: white;
+	font-size: 12px;
+	
+}
+.nowtime{
+	float: left;
+	font-style: normal;
+	margin: -20px 0 0 0px;
+}
+.alltime{
+	float: right;
+	font-style: normal;
+	margin: -20px 0 0 320px;
+}
+.musicname{
+	font-size: 20px;
+	color: white;
+	margin: 20px;
+}

@@ -1,0 +1,12 @@
+    var plays=document.getElementById('plays');
+	var pauses=document.getElementById('pauses');
+	var rate=document.getElementById('rate');
+	var nowtime=document.getElementById('nowtime');
+	var alltime = document.getElementById('alltime');
+	var musicname = document.getElementById('musicname');
+	var pre = document.getElementById('pre');
+	var nex = document.getElementById('nex');
+	var mul = document.getElementById('muslist');
+	var muslists=muslist.getElementsByTagName('li');
+	var musics = document.createElement("AUDIO");
+	document.body.appendChild(musics);
